@@ -17,7 +17,7 @@ export const ConfirmationDialog = (props) => {
       open={open}
       {...other}
     >
-      <DialogTitle>SeeAd</DialogTitle>
+      <DialogTitle>InterviewIO</DialogTitle>
       <DialogContent dividers>{children}</DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>{btnTitle ?? "DONE"}</Button>

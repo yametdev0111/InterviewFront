@@ -24,7 +24,6 @@ export const InputBox = (props) => {
           ...sx,
         }}
         label=""
-        rows={5}
         required={true}
         error={error ?? inerror}
         fullWidth

@@ -8,7 +8,6 @@ export const BoxContainer = ({ children, sx }) => {
         autoComplete="off"
         width="100%"
         sx={{
-          p: { xs: "1rem", sm: "2rem" },
           borderRadius: "15px",
           color: "black",
           ...sx,

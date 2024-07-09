@@ -1,2 +1,2 @@
-# SeeAd
-Website where you can promote your own website
+# Interview
+Website where you can post and review interview questions and answers
