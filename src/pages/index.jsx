@@ -59,7 +59,7 @@ const DashboardPage = () => {
   const handleAdd = () => {
     createQuestion({ ...value }, (response) => {
       if (response.result) {
-        setValue(prep);
+        setValue({ category: value.category, question: "", answer: "" });
         handleReload();
       }
     });
@@ -145,9 +145,7 @@ const DashboardPage = () => {
                     <Checkbox />
                   </TableCell>
                   {columns.map((column, index) => (
-                    <TableCell
-                      key={index}
-                    >
+                    <TableCell key={index}>
                       {row[column.toLowerCase()]}
                     </TableCell>
                   ))}
